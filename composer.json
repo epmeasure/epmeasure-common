@@ -1,0 +1,37 @@
+{
+    "name": "epmeasure/epmeasure-common",
+    "description": "EPMeasure common library",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "keywords": [
+        "epmeasure",
+        "php",
+        "performance",
+        "analysis"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+    ],
+    "homepage": "https://github.com/epmeasure/epmeasure-common",
+    "authors": [
+        {
+            "name": "Ingo Walz",
+            "email": "ingo.walz@googlemail.com",
+            "homepage": "http://www.rubber-duckling.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "EPMeasure": "library/",
+            "EPMeasureTest": "tests/"
+        }
+    }
+}
